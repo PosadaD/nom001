@@ -1,0 +1,19 @@
+.TablasContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 20vw;
+    padding: 10px;
+    min-width: 15VW;
+    margin: 20px;
+}
+
+.TablasContainer h3{
+    margin: 0;
+}
+
+.TablasContainer button{
+    padding:  5px 15px;
+
+}

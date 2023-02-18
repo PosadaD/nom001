@@ -1,0 +1,61 @@
+.homeContainer{
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  overflow-y: scroll;
+}
+
+.swiper {
+    width: 80%;
+    height: 100%;
+    background: #000;
+    margin-top: 20px;
+  }
+  
+  .swiper-slide {
+    font-size: 18px;
+    color: #fff;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 40px 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  .parallax-bg {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 130%;
+    height: 100%;
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-position: center;
+  }
+  
+  .swiper-slide .title {
+    font-size: 41px;
+    font-weight: 300;
+  }
+  
+  .swiper-slide .subtitle {
+    font-size: 21px;
+  }
+  
+  .swiper-slide .text {
+    font-size: 14px;
+    max-width: 400px;
+    line-height: 1.3;
+  }
+
+  .tablasSection{
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    flex-wrap: wrap;
+  }
+  

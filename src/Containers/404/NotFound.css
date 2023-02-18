@@ -1,0 +1,18 @@
+.page404Container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 90vh;
+}   
+
+
+.page404Container h2{
+    font-size: 3rem;
+    margin: 0;
+}
+
+.page404Container h4{
+    font-size: 2rem;
+}

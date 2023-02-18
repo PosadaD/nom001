@@ -1,0 +1,21 @@
+.headerContainer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 10vh;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.imgContainer{
+    padding: 20px;
+    height: 100%;
+
+}
+
+.imgContainer img{
+    height: 100%;
+}
+
+.titleContainer{
+    padding: 20px;
+}
