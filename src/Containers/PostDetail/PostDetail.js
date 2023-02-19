@@ -37,7 +37,7 @@ function PostDetail(){
     return (
         <>
             <div className="pdfContainer">
-                <embed src={PDF} type="application/pdf"/>
+                <embed src={`https://github.com/PosadaD/nom001/tree/main/src/PDF${Post.pdf}.pdf`} type="application/pdf"/>
             </div>
             <div className="sliderBar-Container">
                 <Swiper slidesPerView={3} spaceBetween={30} mousewheel={true} pagination={{clickable: true,}} modules={[Pagination, Mousewheel]} className="mySwiper">
