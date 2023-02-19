@@ -30,7 +30,9 @@ function PostDetail(){
     const {postId} = useParams();
     const Post = Data.data.nom.find(post => post.pdf === postId);
 
-    var PDF = require(`../../PDF/${Post.pdf}.pdf`)
+    //var PDF = require(`../../PDF/${Post.pdf}.pdf`)
+
+    var PDF = require(`https://github.com/PosadaD/nom001/tree/main/src/PDF${Post.pdf}.pdf`)
 
     return (
         <>
