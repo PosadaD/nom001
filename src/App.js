@@ -3,7 +3,7 @@ import Header from "./Components/Header/header";
 import {BrowserRouter, Routes, Route} from "react-router-dom"
 import Home from "./Containers/Home/Home"
 import NotFound from "./Containers/404/NotFound";
-import PostDetail from "./Containers/PostDetail/PostDetail"
+//import PostDetail from "./Containers/PostDetail/PostDetail"
 import SubPostDetail from "./Containers/Subpost/SubPostDetail"
 import Tablas from "./Containers/Tablas/Tablas"
 
@@ -15,7 +15,7 @@ function App(){
       <Header/>
         <Routes>
           <Route path="/" element={<Home/>}></Route>
-            <Route path="/:postId" element={<PostDetail/>}></Route>
+            {/* <Route path="/:postId" element={<PostDetail/>}></Route> */}
           <Route path="/sub"></Route>
             <Route path="sub/:subpostId" element={<SubPostDetail/>}></Route>
           <Route path="/tab"></Route>
