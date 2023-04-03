@@ -11,18 +11,20 @@ import Tablas from "./Containers/Tablas/Tablas"
 function App(){
   return(
     <>
-      <BrowserRouter>
+      {/* <BrowserRouter>
       <Header/>
         <Routes>
           <Route path="/" element={<Home/>}></Route>
-            {/* <Route path="/:postId" element={<PostDetail/>}></Route> */}
+            <Route path="/:postId" element={<PostDetail/>}></Route>
           <Route path="/sub"></Route>
             <Route path="sub/:subpostId" element={<SubPostDetail/>}></Route>
           <Route path="/tab"></Route>
             <Route path="tab/:tabpostId" element={<Tablas/>}></Route>
           <Route path="*" element={<NotFound/>}></Route>
         </Routes>
-      </BrowserRouter>
+      </BrowserRouter> */}
+
+      <Home></Home>
     </>
   )
 }
