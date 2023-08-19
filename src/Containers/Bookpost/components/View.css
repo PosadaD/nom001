@@ -1,0 +1,79 @@
+.overlay{
+    height: 100vh;
+    width: 100vw;
+    position: fixed;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    background: rgba(0,0,0,0.9);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.overlay-inner{
+    background: white;
+    width: 700px;
+    height: 550px;
+    padding: 1.5rem;
+    position: relative;
+    box-sizing: border-box;
+    overflow: hidden;
+    font-size: 1.3rem;
+        overflow-y: scroll;
+}
+.close{
+    position: absolute;
+    top:1rem;
+    right: 1rem;
+    outline: none;
+    border: none;
+    font-size: 2rem;
+    background-color: transparent;
+}
+
+.close:hover{
+    scale: 1.1;
+    cursor: pointer;
+}
+
+.inner-box{
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+.inner-box img{
+    margin-right: 20px;
+    width: 150px;
+    height: 200px;
+}
+.overlay-inner .inner-box h3{
+    margin-top: 10px;
+    color: green;
+}
+.overlay-inner .inner-box h4{
+    color: blue;
+}
+.inner-box button{
+    outline: none;
+    border: none;
+    width: 100px;
+    height: 50px;
+    border-radius: 5px;
+    background-color: blue;
+    color: white;
+    font-weight: bold;
+    padding: 0.3rem 0.5rem;
+}
+
+.inner-box button:hover{
+    scale: 1.1;
+    cursor: pointer;
+}
+
+.overlay-inner .description{
+    margin-top: 2rem;
+    text-align: justify;
+    font-size: 13px;
+}

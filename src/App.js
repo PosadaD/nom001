@@ -6,9 +6,12 @@ import NotFound from "./Containers/404/NotFound";
 import PostDetail from "./Containers/PostDetail/PostDetail"
 import SubPostDetail from "./Containers/Subpost/SubPostDetail"
 import Tablas from "./Containers/Tablas/Tablas"
+import Book from "./Containers/Bookpost/books";
+
 
 
 function App(){
+
   return(
     <>
       <BrowserRouter>
@@ -20,6 +23,7 @@ function App(){
             <Route path="sub/:subpostId" element={<SubPostDetail/>}></Route>
           <Route path="/tab"></Route>
             <Route path="tab/:tabpostId" element={<Tablas/>}></Route>
+          <Route path="/books" element={<Book/>}></Route>
           <Route path="*" element={<NotFound/>}></Route>
         </Routes>
       </BrowserRouter>  
